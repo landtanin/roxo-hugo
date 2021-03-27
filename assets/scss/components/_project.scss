@@ -5,12 +5,15 @@
     position: relative;
     margin-bottom: 30px;
     transition: all 0.3s ease-in;
+    border-radius: 8px;
     &-thumb{
       img{
+        border-radius: 8px;
         width: 100%;
       }
     }
     &-content{
+      border-radius: 8px;
       position: absolute;
       background: $gray;
       width: 100%;
