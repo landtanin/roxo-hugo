@@ -3,6 +3,9 @@
   padding: 100px 0;
   overflow: hidden;
   &-item{
+    p{
+      color: $text-color-dark;
+    }
     background: $gray;
     padding: 30px;
     margin-bottom: 30px;
