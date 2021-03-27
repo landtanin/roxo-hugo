@@ -19,6 +19,13 @@
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
+  <!-- Preview meta data-->
+  <meta property="og:url" content="https://get.lykely.net/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Can't decide what to watch?" />
+  <meta property="og:description" content="Join Lykley to share movie/TV show recommendations with friends." />
+  <meta property="og:image" content="https://lykely-web-images.s3.eu-west-2.amazonaws.com/Homepage_Image.png" />
+
   <!--Favicon-->
   <!-- <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" /> -->
