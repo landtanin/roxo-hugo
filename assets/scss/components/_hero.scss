@@ -15,14 +15,17 @@
   }
   &-content{
     h1{
-      margin-bottom: 75px;
+      margin-bottom: 25px;
       @include desktop-lg{
         font-size: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
       }
       @include mobile{
         font-size: 40px;
       }
+    }
+    h3 {
+      margin-bottom: 75px;
     }
     &-buttons{
       margin: 0;

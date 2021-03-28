@@ -4,12 +4,12 @@
   <section class="site-hero" style="background-image: url('{{ .background_image }}');">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
+        <div class="col-lg-12 mx-auto">
           <div class="site-hero-content text-center">
-            <h6>{{ .tagline }}</h6>
             <h1>
               {{ .heading }}
             </h1>
+            <h3>{{ .tagline }}</h3>
             <ul class="site-hero-content-buttons">
               <li>
                 <a href="{{ .secondary_button_url | absURL }}" class="btn btn-primary">
