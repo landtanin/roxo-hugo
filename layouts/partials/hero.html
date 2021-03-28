@@ -1,7 +1,7 @@
 {{ with .Site.Params.banner }}
   {{ if .enable }}
   {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <section class="site-hero" style="background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('{{ .background_image }}');">
+  <section class="site-hero" style="background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('{{ .background_image }}');">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto">
@@ -9,6 +9,7 @@
             <h1>
               {{ .heading }}
             </h1>
+            <img src="/images/backgrounds/so_many_platforms.jpg" alt="platform-images">
             <h3>{{ .tagline }}</h3>
             <ul class="site-hero-content-buttons">
               <li>
