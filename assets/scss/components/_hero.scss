@@ -15,6 +15,7 @@
   }
   &-content{
     h1{
+      color: $white;
       margin-bottom: 25px;
       @include desktop-lg{
         font-size: 50px;
@@ -25,6 +26,7 @@
       }
     }
     h3 {
+      color: $white;
       margin-bottom: 75px;
     }
     &-buttons{
