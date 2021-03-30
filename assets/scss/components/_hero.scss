@@ -29,14 +29,25 @@
       filter: brightness(0.8);
       opacity: 0.8;
       padding: 15px;
-      width: 100%;
+      width: 70%;
       object-fit: cover;
       margin-bottom: 25px;
       transition: all .3s $site-ease;
     }
+    .google-play-badge {
+      img {
+        margin: 0px;
+        padding: 0px;
+        filter: brightness(1);
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
     h3 {
       color: $white;
-      margin-bottom: 75px;
+      margin-bottom: 50px;
     }
     &-buttons{
       margin: 0;
