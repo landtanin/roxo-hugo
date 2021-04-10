@@ -8,6 +8,14 @@
     }
   }
   &-widget{
+    img {
+      margin: 0px 25px;
+      padding: 0px;
+      filter: brightness(1);
+      width: 150px;
+      object-fit: contain;
+      transition: all .3s $site-ease;
+    }
     @include desktop{
       margin-bottom: 40px;
     }
